@@ -1,0 +1,110 @@
+/* Cyberpunk Neon Dizayn */
+body {
+    background: #0f0f0f;
+    color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(20, 20, 40, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #09f, 0 0 30px #f3f, 0 0 45px #09f;
+  }
+  
+  h1 {
+    color: #0ff;
+    text-shadow: 0 0 10px #09f, 0 0 20px #f3f, 0 0 30px #09f;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    background: #222;
+    border: 1px solid #09f;
+    color: #0ff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+  }
+  
+  input::placeholder, select {
+    color: #888;
+  }
+  
+  button {
+    background: linear-gradient(45deg, #09f, #f3f);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-shadow: 0 0 5px #000;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #f3f, #09f);
+    box-shadow: 0 0 10px #09f, 0 0 20px #f3f, 0 0 30px #09f;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead th {
+    color: #0ff;
+    border-bottom: 2px solid #09f;
+    padding: 10px;
+    text-shadow: 0 0 5px #09f;
+  }
+  
+  tbody td {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #444;
+  }
+  
+  tbody tr:hover {
+    background: #222;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: #f90;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background: #ffa500;
+    box-shadow: 0 0 10px #f90;
+  }
+  
+  .delete-btn {
+    background: #f00;
+  }
+  
+  .delete-btn:hover {
+    background: #ff4444;
+    box-shadow: 0 0 10px #f00;
+  }
+  
